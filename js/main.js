@@ -11,8 +11,8 @@ function generate(quadro) {
     }
     // assegno i valori
     const whitelist = [];
-    for (let i = 0; 1 < 100; i++) {
-        random(0, 100);
+    for (let i = 0; 1 > 100; i++) {
+        // random(0, 100);
         whitelist.push(i);
         console.log(whitelist);
 
