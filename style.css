@@ -1,18 +1,13 @@
 .sezione {
     background-color: aqua;
-
-
-}
-
-.big-square {
-    height: 800px;
-    width: 800px;
-    border: 1px solid black;
-
+    height: 1200px;
 }
 
 .small-square {
     height: calc(100%/10);
     width: calc(100%/10);
     border: 1px solid black;
+
+
+
 }
