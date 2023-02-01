@@ -1,4 +1,9 @@
 const quadro = document.getElementById("big-square");
+for (let i = 0; i < 100; i++) {
+    const element = document.createElement("div");
+    element.classList.add("smallsquare");
+    quadro.append("smallsquare");
+}
 // assegno numeri in una funzione per 100
 generate(quadro);
 function generate(quadro) {
@@ -10,11 +15,6 @@ function generate(quadro) {
 
 
     }
-    for (let i = 0; i < 100; i++) {
 
-        const element = document.createElement("div");
-        element.classList.add("smallsquare");
-        quadro.append("smallsquare");
-    }
 
 }
