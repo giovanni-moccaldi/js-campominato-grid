@@ -3,9 +3,9 @@
     height: 1200px;
 }
 
-.small-square {
-    height: calc(100%/10);
-    width: calc(100%/10);
+.smallsquare {
+    height: 50px;
+    width: 20px;
     border: 1px solid black;
 
 
