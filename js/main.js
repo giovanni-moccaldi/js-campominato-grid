@@ -7,9 +7,14 @@ function generate(quadro) {
         // poi genero un div e una classe
         const element = document.createElement("div");
         element.classList.add("smallsquare");
-        // assegno i valori
-        const numbershtml = random(0, 100);
-        console.log(numbershtml);
+
+    }
+    // assegno i valori
+    const whitelist = [];
+    for (let i = 0; 1 < 100; i++) {
+        random(0, 100);
+        whitelist.push(i);
+        console.log(whitelist);
 
 
     }
