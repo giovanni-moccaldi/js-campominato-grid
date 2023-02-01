@@ -1,14 +1,27 @@
-.sezione {
+.aqua {
     background-color: aqua;
-    height: 100%;
+    height: 1200px;
+    padding-top: 20px;
+
+}
+
+.azzurro {
+    background-color: blue;
 }
 
 .smallsquare {
-    height: calc(100%10);
-    width: calc(100%10);
+    height: calc(100%/10);
+    width: calc(100%/10);
+    list-style: none;
     border: 1px solid black;
+    text-align: center;
 
 
 
 
+}
+
+#big-square {
+    display: flex;
+    flex-wrap: wrap;
 }
