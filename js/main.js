@@ -1,20 +1,23 @@
-// const bottone = document.getElementById("play")
-// bottone.addEventListener(
-//     "click",
-//     function () {
-//         this.value.toggle();
-//     }
-// )
+const bottone = document.getElementById("play")
+bottone.addEventListener(
+    "click",
+    function () {
+        generate(listtowrite, 1);
+    }
+)
 const listtowrite = document.getElementById("big-square");
 // assegno numeri in una funzione per 100
-generate(listtowrite);
+generate(listitem, 1);
 function generate() {
     // assegno i valori
     const whitelist = [];
     for (let i = 0; i < 100; i++) {
         whitelist.push(i);
         // console.log(whitelist);
+
+
     }
+
 
     for (let i = 0; i < 100; i++) {
         // creo un div per mettere i numeri
