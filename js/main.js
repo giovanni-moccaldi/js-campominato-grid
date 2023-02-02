@@ -11,13 +11,13 @@ generate(listitem, 1);
 function generate() {
     // assegno i valori
     const whitelist = [];
-    for (let i = 0; i < 100; i++) {
+    for (let i = 1; i <= 100; i++) {
         whitelist.push(i);
         // console.log(whitelist);
 
 
     }
-
+    listtowrite.innerHTML = "";
 
     for (let i = 0; i < 100; i++) {
         // creo un div per mettere i numeri
@@ -27,6 +27,7 @@ function generate() {
         // aggiungo una classe
         listitem.classList.add("smallsquare");
         listtowrite.append(listitem);
+
         // aggiungo un click
         listitem.addEventListener(
             "click",
@@ -34,7 +35,7 @@ function generate() {
                 this.classList.toggle("azzurro");
                 console.log(whitelist[i])
             }
+
         )
     }
-
 }
